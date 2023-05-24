@@ -841,6 +841,9 @@ background-color: white;
     height: 247px;
     margin-bottom: 20px;
 }
+.text-center{
+    display: contents;
+}
 
 .sectorsection {
     text-align: center;

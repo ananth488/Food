@@ -1,0 +1,896 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.headersection img{
+    width: 100px;
+    height: 60px;
+    margin-top: 5px;
+}
+.navbar li{
+    padding-right: 20px;
+}
+
+.nav-items{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #FF661B;
+    color: white;
+}
+.nav-items:hover{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #ffffff;
+    border: 2px solid #FF661B;
+
+}
+.text{
+    color: white;
+}
+.text:hover{
+    color: rgb(0, 0, 0);
+}
+.nav-itemss{
+    background-color: #0A438D;
+    color: white;
+    border-radius: 0px 20px 0px 0px;
+}
+.nav-itemss:hover{
+    background-color: #ffffff;
+    color: white;
+    border: 2px solid #0A438D;
+ 
+}
+.banner{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 70px;
+   background-color: rgb(133, 209, 244);
+   margin-bottom: 30px;
+}
+.banner h4{
+    text-align: center;
+}
+.projects{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.formsec{
+    padding: 30px;
+    background-color: rgb(237, 235, 235);
+    border-radius: 40px;
+}
+form{
+    text-align: center;
+}
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 70%;
+}
+.forms{
+ width: 60px;
+ margin-bottom: 20px;
+}
+.awards{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.awards h3,h4{
+text-align: center;
+margin-bottom: 20px;
+}
+.awards img{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(247, 245, 245);
+    background-color: rgb(247, 245, 245);
+}
+.food{
+    color: #0A438D;
+}
+.about{
+    padding: 30px;
+    background-color:#142129;
+    margin-bottom: 30px;
+    color: white;
+}
+.about i{
+    color: #FF661B;
+}
+.about h3{
+    margin-bottom: 30px;
+}
+.about h4{
+    text-align: start;
+}
+.about p{
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+.companies{
+    margin-bottom: 30px;
+}
+.companies h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.companies img{
+    width: 100px;
+    margin: 10px;
+}
+.color{
+    color: #FF661B;
+}
+.sector button{
+    background-color: #FF661B;
+    border-radius: 20px;
+    color: white;
+}
+.sector h3{
+    margin-bottom: 30px;
+}
+.sector{
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(237, 235, 235);
+}
+.sector button:hover{
+    background-color: #142129;
+    border-radius: 20px;
+    color: white;
+}
+
+.backimg{
+    text-align: center;
+    background-color: rgb(237, 235, 235);
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+}
+.backimg img{
+    
+    margin: auto;
+    width: 200px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.card{
+    padding: 15px;
+    box-shadow: 1px 1px 3px 3px rgb(202, 200, 200);
+    margin: 10px;
+}
+.service{
+    margin-bottom: 30px;
+}
+.service h3{
+text-align: center;
+margin-bottom: 20px;
+}
+.cards{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(224, 221, 221);
+
+}
+.cards img{
+    width: 70px;
+    height: 70px;
+}
+.consulting{
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(237, 235, 235);
+}
+.consulting button{
+    color: white;
+    background-color: #FF661B;
+    border-radius: 20px;
+}
+.consulting button:hover{
+    color: white;
+    background-color: #216189;;
+    border-radius: 20px;
+}
+.but button{
+    color: #142129;
+    background-color: rgb(225, 224, 223);
+    border-radius: 0px;
+}
+.but button:hover{
+    border-radius: 0px;
+}
+.across h3{
+    text-align: center;
+
+}
+.across{
+    margin-bottom: 30px;
+
+}
+.across button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #FF661B;
+    border-radius: 20px;
+}
+.colimg img{
+    margin: auto;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.colimg img:hover{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.business{
+    margin-bottom: 30px;
+}
+.business h3{
+    text-align: center;
+}
+.car{
+    box-shadow: 1px 1px 3px 3px rgb(202, 200, 200);
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.car h5,p{
+    margin-bottom: 10px;
+}
+.car img{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.business{
+    text-align: center;
+
+}
+
+
+/*  */
+
+
+.footer h3{
+    margin-bottom: 20px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.48px;
+    line-height: 1.5;
+}
+.footer i{
+    font-size: 25px;
+}
+.footer{
+    border: 1px solid wheat;
+    background-color: aliceblue;
+
+    padding: 60px 60px 0 60px;
+}
+.footer p{
+    text-align: justify;
+}
+.footer img{
+    border-radius: 0;
+    width: 260px;
+}
+.footer p{
+    color: rgb(140, 138, 138);
+}
+.footer p:hover{
+    color: #FF661B;
+    
+}
+
+/* about section css */
+.aboutbanner{
+    margin-bottom: 10px;
+    padding: 90px;
+    background-color: #142129;
+}
+.aboutbanner :nth-child(1){
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.aboutbanner :nth-child(2){
+    color: #FF661B;
+    padding-top: 10px;
+    text-align: center;
+}
+.mapsection{
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.mapsection h3{
+ text-align: center;
+ margin-bottom: 30px;
+ color: #FF661B;
+}
+.mapsection h5{
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.mapsection p{
+    opacity: 0.8;
+    text-align: justify;
+}
+.mapsection img{
+    width: 300px;
+}
+.mapsection button{
+    background-color: #FF661B;
+    color: white;
+    border-radius: 20px;
+}
+.mapsection button:hover{
+    color: white;
+    background-color: #142129;
+}
+.vision{
+    padding: 40px;
+    background-color: #142129;
+    margin-bottom: 30px;
+}
+.visi{
+    margin-bottom: 30px;
+}
+.visi h4
+{
+    color: #FF661B;
+    text-align: center;
+}
+.visi p{
+    color: white;
+    text-align: center;
+}
+.vis{
+    background-color: #2e3337;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.vis p{
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    text-align: left;
+}
+.vis h3{
+    color: #FF661B;
+}
+.visionpara p{
+    text-align: center;
+    color: white;
+}
+.visionpara i{
+    color: #FF661B;
+}
+.leader{
+    margin-bottom: 40px;
+}
+.leader h3{
+        text-align: center;
+}
+.leade{
+    margin-bottom: 40px;
+}
+.leade h3{
+        text-align: center;
+}
+.leadimg{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: #e9ebeb;
+    border-radius: 5px;
+}
+.leadimg h5{
+    color: #636465;
+}
+.leadimg img{
+    margin-bottom: 10px;
+}
+.leadimg p{
+    text-align: center;
+}
+.owlleadimg{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background-color: #e9ebeb;
+    border-radius: 5px;
+}
+.owlleadimg h5{
+    color: #636465;
+}
+.owlleadimg img{
+    width: 80px !important;
+    text-align: center;
+    margin: auto;
+    
+}
+.owlleadimg p{
+    text-align: center;
+}
+
+
+/* event section */
+
+.eventbanner{
+    margin-bottom: 30px;
+    padding: 90px;
+    background-color: #142129;
+    text-align: center;
+}
+.eventbanner p{
+    color: white;
+    text-align: center;
+}
+.eventbanner h1{
+    margin-bottom: 20px;
+    color:#FF661B;
+    text-align: center;
+}
+.webinar h3{
+    text-align: center;
+    color: #FF661B;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.webinar p{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.webi{
+    margin: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(202, 200, 200);
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.webi button{
+    padding: 10px;
+    border: none;
+    background-color: #FF661B;
+    color: white;
+    border-radius: 20px;
+}
+.webi img{
+    border-radius: 20px 20px 30px 30px;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+.Previous{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Previous h3{
+    text-align: center;
+    color: #FF661B;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+/* .Previous iframe{
+    width: 90%;
+    height: 200px;
+} */
+
+
+
+/* blog section */
+
+.exportsection{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.exportsection img{
+    width:100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+.exportsection img:hover{
+    width:100%;
+    height: px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px 3px rgb(202, 200, 200);
+}
+.exportsection h3{
+    font-weight: 700;
+}
+.exportsection p{
+    text-align: justify;
+}
+.exportsection button{
+    padding: 10px;
+    border: none;
+    background-color: #FF661B;
+    color: white;
+    border-radius: 10px;
+}
+.eco button{
+    background-color: #142129;
+    color: #e9ebeb;
+}
+
+.sechead{
+    margin-top: 15px;
+}
+
+.sectorsection img{
+    width: 100%;
+    height:300px;
+    padding: 30px;
+    border-radius: 40px;
+}
+.sectorsection img:hover{
+    width: 100%;
+    height:300px;
+    padding:5px;
+    border-radius: 20px;
+}
+
+
+/* contact forms */
+
+.contacts{
+    margin-bottom: 30px;
+    padding:40px;
+    background-color:#1f5f84;
+}
+.contacts h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.contactform{
+    background-color: #bdd3d3;
+    padding: 30px;
+    font-weight: 600;
+    border-radius: 15px;
+    max-width: 100%;
+}
+.mapsect{
+background-color: #bdd3d3;
+}
+.mapsect i{
+    color:#0A438D;
+}
+.maplocation{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.maplocation h3{
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.maplocation p{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.maplocation h3{
+    font-weight: 700;
+}
+
+/* client section */
+
+.clientcontentsec{
+    padding: 30px;
+    background-color: #1f5f84;
+    color: white;
+
+}
+.clientcontentsec h2{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.clientcontentsec p{
+    text-align: justify;
+}
+.clientsecimg{
+    margin-bottom: 30px;
+}
+.clientsecimg img{
+    width: 200px;
+    height: 100px;
+}
+.clientsectionimg{
+    border:1px solid rgb(209, 207, 207);
+    margin: 10px;
+    padding: 10px; 
+    text-align: center;
+
+}
+
+/* service */
+
+.sectorsection1{
+    background-color: #144b6b;
+    padding: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sectorsection1 h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sectorsection1 p{
+    text-align: center;
+    color: #d9dadc;
+}
+.sectorsection1 button{
+    background-color: green;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    border: none;
+}
+.sectorsection1 button:hover{
+    background-color:#FF661B;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    border: none;
+}
+.sectorourservice h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #216189;
+}
+.sectorourservice h4{
+    color: #216189;
+}
+.sectorourservice{
+    margin-bottom: 30px;
+}
+.sectorourservice img{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+/* .sectorourservice img:hover{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding: 15px;
+} */
+
+/* backgroung img */
+.backimg{
+background-color: white;
+}
+.backimg h5{
+    font-weight: 700;
+    font-size: 45px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+.backimg p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.backbutton{
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;  
+    margin-bottom: 20px;
+}
+.backimgs{
+    width: 100% !important;
+    height: 500px !important;
+    
+}
+@media screen and (min-width:320px) and (max-width:600px) {
+
+    .rows{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    
+    .backimg img{
+    
+        margin: auto;
+        width: 100% !important;
+        height: 300px !important;
+        margin-bottom: 10px;
+    }
+    .sectorsection1{
+        padding: 15px;
+    }
+    .sectorourservice img{
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .sectorourservice{
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+    .banner{
+        width: 100%;
+    }
+    .formsec{
+        width: 100%;
+    }
+    .colimg img{
+        width: 300px;
+        height: 200px;
+    }
+    .business{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .car{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .about{
+       padding: 5px;
+    }
+    .about p{
+        letter-spacing:normal;
+        align-items:start;
+        padding: 0;
+    }
+    .awards img{
+        height: 90px;
+    }
+    .awards{
+        padding: 0px;
+    }
+    
+    .headersection img{
+        width: 300px;
+        height: 100px;
+    }
+    .butt{
+        margin-top: 90px;
+        padding-left: 50px;
+    }
+    .banner{
+        padding: 10px 0px 10px 0px;
+    }
+    .banner h2,p{
+        text-align: center;
+    }
+    .col-7{
+        width: 100% !important;
+    }
+   .footer img{
+    width: 200px;
+   }
+  .mapsection img{
+    width: 200px;
+  }
+  .mapsection p{
+    letter-spacing: 0px;
+    text-align: start;
+  }
+  .mapsection iframe{
+    width: 248px;
+    height: 248px;
+  }
+  .leader{
+    width: 100x;
+  }
+  .leade{
+    width: 100%;
+  }
+  .owlleadimg img{
+    width: 40px !important;
+  }
+  .owlleadimg h5{
+    font-size: 12px;
+  }
+  .owlleadimg p{
+    font-size: 8px;
+  }
+    .owlleadimg{
+    width: 100%;
+    height: 170px;
+  }
+.eventbanner{
+
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #142129;
+    text-align: center;
+}
+  .exportsection img{
+    width:100%;
+    height: 247px;
+    margin-bottom: 20px;
+}
+
+.sectorsection {
+    text-align: center;
+}
+.sectorimg{
+    display: grid;
+    grid-template-columns: auto;
+}
+.contactform{
+    background-color: #bdd3d3;
+    padding: 10px;
+    width: 500px;
+    font-weight: 600;
+    border-radius: 15px;
+    max-width: 100%;
+}
+}
+
+
+@media screen and (min-width:600px) and (max-width:800px) {
+
+    .rows{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+    .backimg img{
+        width: 70px;
+        height: 50px;
+    }
+    .banner{
+        width: 100%;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+
+    .rows{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+    }
+    .backimg img{
+        width: 70px;
+        height: 50px;
+    }
+    .banner{
+        width: 100%;
+    }
+    
+}
+
+
+
